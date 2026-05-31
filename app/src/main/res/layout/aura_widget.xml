@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#0D0E12"
+        android:minHeight="100dp">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡️ AURA CORE MONITOR"
+            android:textColor="#00E5FF"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:letterSpacing="0.05" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E303D"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/widget_status_vault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• BÓVEDA LOCAL: 🔒 AES-256"
+            android:textColor="#E0E0E0"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-monospace" />
+
+        <TextView
+            android:id="@+id/widget_status_lan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• SÓCKETS TCP: ACTIVO (8090)"
+            android:textColor="#E0E0E0"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-monospace"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/widget_status_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• AUDITOR: EN SEGUNDO PLANO"
+            android:textColor="#FFB300"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-monospace"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PULSA PARA ABRIR EL CENTRO SEGURO"
+            android:textColor="#808080"
+            android:textSize="9sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

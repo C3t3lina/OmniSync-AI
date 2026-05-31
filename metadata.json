@@ -1,0 +1,8 @@
+{
+  "name": "Asistente Personal IA",
+  "description": "Un asistente personal de IA 24/7 para redactar correos, planificar guías de estudio, analizar extractos bancarios y gestionar tus datos de forma local y offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
